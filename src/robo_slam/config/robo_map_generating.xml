@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<GENERATING>
+    <process_type_name>
+        <process_type_name>MAP_SAVE</process_type_name>
+    </process_type_name>
+    <MAP_SAVE>
+        <g_map_save_load_global_pcd_path>/media/zyy/新加卷/rs_32/mapping_32_5/mapping_0905/loop_global/</g_map_save_load_global_pcd_path>
+        <g_map_save_global_name>global.pcd</g_map_save_global_name>
+        <g_map_save_save_global_map_path>/media/zyy/新加卷/rs_32/mapping_32_5/mapping_0905/</g_map_save_save_global_map_path>
+        <g_map_save_start_frame>1</g_map_save_start_frame>
+        <g_map_save_end_frame>2460</g_map_save_end_frame>
+        <g_map_save_frame_step>2</g_map_save_frame_step>
+    </MAP_SAVE>
+    <VOXEL_MAP>
+        <g_voxel_load_map_path_pcd>/media/zyy/新加卷/rs_32/mapping_32_4/mapping_0905/1_2460_map.pcd</g_voxel_load_map_path_pcd>
+        <g_voxel_save_map_path_pcd>/media/zyy/新加卷/rs_32/mapping_32_4/mapping_0905/1_2460_map_voxel.pcd</g_voxel_save_map_path_pcd>
+        <g_voxel_leaf_size>0.5</g_voxel_leaf_size>
+    </VOXEL_MAP>
+    <MAP_ROTATE>
+        <g_map_rotate_load_global_map>/media/zyy/新加卷/工业园/1_4185_map_voxel.pcd</g_map_rotate_load_global_map>
+        <g_map_rotate_save_global_map>/media/zyy/新加卷/工业园/1_4185_map_voxel_rotate.pcd</g_map_rotate_save_global_map>
+        <g_map_rotate_t_x>0</g_map_rotate_t_x>
+        <g_map_rotate_t_y>0</g_map_rotate_t_y>
+        <g_map_rotate_t_z>0</g_map_rotate_t_z>
+        <g_map_rotate_t_roll>0</g_map_rotate_t_roll>
+        <g_map_rotate_t_pitch>0</g_map_rotate_t_pitch>
+        <g_map_rotate_t_yaw>0</g_map_rotate_t_yaw>
+    </MAP_ROTATE>
+</GENERATING>

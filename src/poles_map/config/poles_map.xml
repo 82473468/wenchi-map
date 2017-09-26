@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<POLES_MAP>
+    <load_poles_txt>/media/zyy/新加卷/工业园/0809/poles.txt</load_poles_txt>
+    <save_poles_pcd>/media/zyy/新加卷/工业园/0809/poles_map.pcd</save_poles_pcd>
+    <merge_dis>1</merge_dis>
+    <poles_detect_times>6</poles_detect_times>
+</POLES_MAP>

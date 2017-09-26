@@ -1,0 +1,13 @@
+<launch>
+
+    <!--制图-->
+    <node pkg="robo_slam" name="mapping_node" type="mapping_node" output="screen">
+
+    <param name="read_mapping_xml_" value="$(find robo_slam)/config/robo_mapping.xml"/>
+
+    </node>
+
+    <!--rviz -->
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find robo_slam)/rviz/robo_mapping.rviz"/>
+
+</launch>

@@ -1,0 +1,13 @@
+<launch>
+
+    <!--启动存储离线lidar数据的节点,rosbag数据格式-->
+    <node pkg="robo_slam" name="save_single_frame_lidar_node" type="save_single_frame_lidar_node" output="screen">
+    <!--存储离线单帧点云数据的位置(文件夹)-->
+    <param name="g_save_local_lidar_path" value="/home/wenchi/git-clone/robo_mapping/data/"/>
+    </node>
+
+    <!--rviz -->
+    <!--启动数据显示-->
+     <node pkg="rviz" name="rviz" type="rviz" args="-d $(find robo_slam)/rviz/robo_mapping.rviz"/>
+
+</launch>

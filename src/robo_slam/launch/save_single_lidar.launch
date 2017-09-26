@@ -1,0 +1,29 @@
+<launch>
+
+    <!--启动lidar解析节点_pcap-->
+
+        <node  name="rslidar_node" pkg="rslidar_driver" type="rslidar_node" output="screen" >
+          <param name="pcap" value="/media/zyy/新加卷/rs_32/mapping_32_5/slam20190905.pcap"/>
+          <!--param name="device_ip" value="192.168.1.200"/-->
+          <!-- Set the Lidar data port on the PC side, default is 6699 -->
+          <param name="port" value="6699"/>
+        </node>
+
+    <!--启动lidar解析节点-->
+    <node  name="cloud_node" pkg="rslidar_pointcloud" type="cloud_node" output="screen" >
+         <param name="curves_path" value="/data/curves.csv" />
+         <param name="angle_path" value="/data/angle.csv" />
+         <param name="channel_path" value="/data/ChannelNum.csv" />
+    </node>
+
+    <!--启动存储离线lidar数据的节点,pcap数据格式-->
+    <node pkg="robo_slam" name="save_single_frame_lidar_node" type="save_single_frame_lidar_node" output="screen">
+    <!--存储离线单帧点云数据的位置(文件夹)-->
+    <param name="g_save_local_lidar_path" value="/media/zyy/新加卷/rs_32/mapping_32_5/"/>
+    </node>
+
+    <!--启动数据显示-->
+    <!--rviz -->
+     <node pkg="rviz" name="rviz" type="rviz" args="-d $(find robo_slam)/rviz/robo_mapping.rviz"/>
+
+</launch>

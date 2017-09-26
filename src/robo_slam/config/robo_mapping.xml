@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<MAPPING>
+    <load_local_laser_path_>/home/wenchi/git-clone/robo_mapping/data/local_laser/</load_local_laser_path_>
+    <save_mapping_path_>/home/wenchi/git-clone/robo_mapping/data/path/</save_mapping_path_>
+    <start_frame_>1</start_frame_>
+    <end_frame_>14318</end_frame_>
+    <frame_step_>1</frame_step_>
+    <submap_num_>500</submap_num_>
+    <min_scan_range_>1</min_scan_range_>
+    <ndt_max_iter_>35</ndt_max_iter_>
+    <ndt_cell_size_res_>1</ndt_cell_size_res_>
+    <ndt_step_size_>0.1</ndt_step_size_>
+    <ndt_trans_eps_>0.01</ndt_trans_eps_>
+</MAPPING>

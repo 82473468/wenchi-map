@@ -1,0 +1,8 @@
+<launch>
+
+    <!--树干地图生成-->
+    <node pkg="poles_map" name="poles_map_generate_node" type="poles_map_generate_node" output="screen">
+     <param name="read_mapping_xml" value="$(find poles_map)/config/poles_map.xml"/>
+    </node>
+
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+
+    <!--制图-->
+    <node pkg="robo_slam" name="final_map_generate_node" type="final_map_generate_node" output="screen">
+
+    <param name="g_read_xml_path" value="$(find robo_slam)/config/robo_map_generating.xml"/>
+
+    </node>
+
+</launch>

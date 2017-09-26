@@ -1,0 +1,9 @@
+<launch>
+
+    <!--树干检测-->
+    <node pkg="poles_map" name="poles_mutlistableNode" type="poles_mutlistableNode" output="screen">
+         <param name="read_detecting_xml" value="$(find poles_map)/config/poles_detect.xml"/>
+    </node>
+
+
+</launch>

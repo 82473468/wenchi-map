@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<POLES_DETECT>
+    <save_poles_txt_path>/media/zyy/新加卷/工业园/0809/poles.txt</save_poles_txt_path>
+    <load_local_lidar_path>/media/zyy/新加卷/工业园/0808/local_laser/</load_local_lidar_path>
+    <load_pose_txt_path>/media/zyy/新加卷/工业园/0809/save_loop_pose.txt</load_pose_txt_path>
+    <start_frame>1</start_frame>
+    <end_frame>7000</end_frame>
+    <frame_step>1</frame_step>
+</POLES_DETECT>

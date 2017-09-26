@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<LOOPPING>
+    <load_local_lidar_path_>/home/wenchi/git-clone/robo_mapping/data/local_laser/</load_local_lidar_path_>
+    <save_loop_global_path_>/home/wenchi/git-clone/robo_mapping/data/loop/</save_loop_global_path_>
+    <start_frame_>1</start_frame_>
+    <end_frame_>9018</end_frame_>
+    <frame_step_>1</frame_step_>
+    <min_scan_range_>1</min_scan_range_>
+    <ndt_max_iter_>50</ndt_max_iter_>
+    <ndt_cell_size_res_>1</ndt_cell_size_res_>
+    <ndt_step_size_>0.1</ndt_step_size_>
+    <ndt_trans_eps_>0.01</ndt_trans_eps_>
+    <loop_begin_>8518</loop_begin_>
+    <loop_step_>1</loop_step_>
+    <loop_submap_num_>30</loop_submap_num_>
+    <loop_success_step_>100</loop_success_step_>
+    <check_loop_min_dis_>50000</check_loop_min_dis_>
+    <loop_success_score_>0.1</loop_success_score_>
+    <loop_z_ratio_>0.1</loop_z_ratio_>
+</LOOPPING>
+

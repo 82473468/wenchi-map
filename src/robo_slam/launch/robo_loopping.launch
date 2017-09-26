@@ -1,0 +1,13 @@
+<launch>
+
+    <!--制图-->
+    <node pkg="robo_slam" name="loopping_node" type="loopping_node" output="screen">
+
+    <param name="read_loop_xml_" value="$(find robo_slam)/config/robo_loopping.xml"/>
+
+    </node>
+
+    <!--rviz -->
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find robo_slam)/rviz/robo_mapping.rviz"/>
+
+</launch>
